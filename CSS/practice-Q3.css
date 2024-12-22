@@ -1,0 +1,26 @@
+#outerdiv{
+    height: 200px;
+    width: 70px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#outerdiv>div{
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px 10px 8px;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}

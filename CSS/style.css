@@ -1,0 +1,60 @@
+h1 {
+    color: red;
+}
+
+button{
+    background-color: white;
+}
+
+
+nav ul li a{
+    color: rgb(205, 112, 127);
+    text-decoration: none;
+}
+
+span button{
+    background-color: pink;
+}
+
+.follow{
+    background-color: yellow;
+    color: black;
+}
+
+h3{
+    background-color: greenyellow;
+}
+
+#username{
+    background-color: bisque;
+}
+#password
+{
+    background-color: bisque;
+}
+
+.btn{
+    background-color: blue;
+}
+
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: darkgreen;
+}
+
+button:hover{
+    background-color: aqua;
+    color: chocolate;
+}
+
+input[type="radio"]:checked {
+    background-color: blue;  
+    border-color: blue;
+  }
+
+h1::first-letter{
+    color: green;
+}

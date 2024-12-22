@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 900px; 
+    border-left: 5px solid black;
+    border-right: 5px dotted aqua;
+    border-top: 5px double green;
+    border-bottom: 5px dashed magenta;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+h1{
+    border: 2px blue dotted; 
+    width: 500px;
+    padding : 10px  20px 15px 25px ;
+}
+
+button{
+    border: solid black 2px;
+    border-radius: 10px;
+}
