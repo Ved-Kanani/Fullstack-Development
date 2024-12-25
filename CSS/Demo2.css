@@ -1,0 +1,5 @@
+p:hover{
+    background-color: yellowgreen;
+    color: white;
+    transition: 1s;
+}
