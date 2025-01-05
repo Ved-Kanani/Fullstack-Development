@@ -7,7 +7,7 @@
    border: 2px solid black;
    display: flex;
    flex-direction: row;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
 }
 
 h1{
