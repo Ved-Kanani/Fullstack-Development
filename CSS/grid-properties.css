@@ -1,6 +1,6 @@
 .container{
-    height: 500px;
-    width: 800px;
+    height: 400px;
+    width: 500px;
     background-color: lightblue;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -8,6 +8,7 @@
     /*row-gap: 10px;
     column-gap: 5px;*/
     justify-items: end;
+    align-items: center;
 }
 
 .item{
