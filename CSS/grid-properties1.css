@@ -1,0 +1,21 @@
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: lightblue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    /*row-gap: 10px;
+    column-gap: 5px;*/
+    justify-items: end;
+    align-items: end;
+}
+
+.item{
+    height: 50px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    text-align: center;
+}
+
