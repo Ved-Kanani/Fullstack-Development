@@ -1,0 +1,21 @@
+.box{
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+
+    animation-name: fontanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes fontanimation{
+    from{
+        font-size: 10px;
+    }
+
+    to{
+        font-size: 40px;
+    }
+}
