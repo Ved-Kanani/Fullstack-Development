@@ -1,0 +1,25 @@
+.box{
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+    animation: fontanimation 2s ease-in 0s infinite normal;
+}
+@keyframes fontanimation{
+    from{
+        font-size: 10px;
+    }
+
+    to{
+        font-size: 40px;
+    }
+}
+
+@keyframes color{
+    from{
+        background-color: pink;
+    }
+
+    to{
+        background-color: purple;
+    }
+}
