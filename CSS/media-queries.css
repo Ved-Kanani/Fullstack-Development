@@ -1,0 +1,19 @@
+h1{
+    background-color: aqua;
+    color: black;
+    border: 2px solid black;
+}
+
+@media (max-width :400px){
+    h1{
+        background-color: blue;
+        color: beige;
+    }
+}
+
+@media (min-width :0px) and (max-width :300px){
+    h1{
+        background-color: orange;
+        color: beige;
+    }
+}
